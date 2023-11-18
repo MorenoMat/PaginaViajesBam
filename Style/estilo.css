@@ -31,11 +31,11 @@ nav ul li a{
     
     
     }
+    ul li{ list-style: none;}
 
 
 
-
-#body{
+body {
     background:var(--color-fondo)
 
 }
@@ -45,7 +45,7 @@ nav ul li a{
 #Inicio {
     text-align: center; /* Para centrar el contenido */
     font-family: Verdana, sans-serif; /* Cambia la fuente a Arial o una de tu elección */
-    font-size: medium;
+    font
     margin: 0 auto; /* Centra el contenido horizontalmente */
     max-width: 100%; /* Limita el ancho del contenido para una mejor legibilidad */
     padding: 20px; /* Añade espaciado alrededor del contenido */
@@ -61,8 +61,13 @@ font-size: 3rem;
        
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon{
+   width: 4rem;
+   height: 4rem;
+    opacity: 1;
+ 
+}
 
-ul li{ list-style: none;}
 
 
 
@@ -94,8 +99,15 @@ ul li{ list-style: none;}
     grid-column: 2/3;
 } 
 
+form {
+ 
+
+}
 
 
+#footer{
+    padding: 5rem;
+}
 
 
 
@@ -117,6 +129,7 @@ ul li{ list-style: none;}
         opacity: .7;
          animation: cloud 10s linear 3s 6 reverse; /* ocurre la animacion cloud  6 veces  */
         z-index: 99;
+
       }
       @keyframes light {
         0% {opacity: 0;}
