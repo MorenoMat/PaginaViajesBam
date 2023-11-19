@@ -43,18 +43,18 @@ nav ul li a{
 
 
 body {
-    background:var(--color-fondo)
-
+    background:var(--color-fondo);
+   overflow-x:hidden;
 }
 
 
 
 #Inicio {
     text-align: center; /* Para centrar el contenido */
-    font-family: Verdana, sans-serif; /* Cambia la fuente a Arial o una de tu elección */
+    font-family: Verdana, sans-serif; 
     font
     margin: 0 auto; /* Centra el contenido horizontalmente */
-    max-width: 100%; /* Limita el ancho del contenido para una mejor legibilidad */
+    max-width: 100%; 
     padding: 20px; /* Añade espaciado alrededor del contenido */
 background-color: whitesmoke;
 }
@@ -161,7 +161,7 @@ footer {
       .d-block {
         width: 75%;
         height: 600px;
-        margin: 0 auto;
+        margin: 50 ;
       }
 
 
